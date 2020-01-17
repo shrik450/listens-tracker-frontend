@@ -1,0 +1,30 @@
+.refresh-button {
+    float: right;
+}
+
+.load-animation {
+    animation: spin-loader 1.2s linear infinite;
+    margin: auto;
+    width: auto;
+}
+
+.spinner-col {
+    width: 100%;
+}
+
+.feed-list {
+    width: 100%;
+}
+
+.search-form {
+    margin-bottom: 8px;
+}
+
+@keyframes spin-loader {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
