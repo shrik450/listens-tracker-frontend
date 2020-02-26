@@ -1,9 +1,9 @@
-import React from 'react';
-import { Route } from 'react-router-dom';
-import { Container } from 'react-bootstrap';
+import React from "react";
+import { Route } from "react-router-dom";
+import { Container } from "react-bootstrap";
 
-import './App.css';
-import { FeedView } from './components/FeedView';
+import "./App.css";
+import { FeedView } from "./components/FeedView";
 
 const App: React.FC = () => {
   return (
@@ -19,6 +19,6 @@ const App: React.FC = () => {
       </Container>
     </div>
   );
-}
+};
 
 export default App;

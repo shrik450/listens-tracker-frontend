@@ -3,5 +3,5 @@ export class PaginationDetails {
     public total_records: number,
     public total_pages: number,
     public current_page: number
-  ) { }
+  ) {}
 }

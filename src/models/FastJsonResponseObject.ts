@@ -1,9 +1,9 @@
-import { FastJsonResponseData } from './FastJsonResponseData';
+import { FastJsonResponseData } from "./FastJsonResponseData";
 
 export class FastJsonResponseObject<ResponseType> {
-    data: FastJsonResponseData<ResponseType>
+  data: FastJsonResponseData<ResponseType>;
 
-    constructor(data: FastJsonResponseData<ResponseType>) {
-        this.data = data;
-    }
+  constructor(data: FastJsonResponseData<ResponseType>) {
+    this.data = data;
+  }
 }

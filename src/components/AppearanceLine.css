@@ -1,0 +1,9 @@
+.appearance {
+    display: flex;
+    justify-content: space-between;
+}
+
+.appearance-name {
+    margin-top: auto;
+    margin-bottom: auto;
+}

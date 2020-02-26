@@ -10,5 +10,5 @@ export class Episode {
     public duration: number,
     public last_played_at: Date,
     public number_of_times_played: number
-  ) { }
+  ) {}
 }
